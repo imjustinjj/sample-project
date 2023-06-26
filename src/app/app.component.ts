@@ -1,0 +1,15 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'sample-project';
+  vehicles = ['Audi', 'BMW', 'Mercedes', 'Bentley'];
+
+  getData(event: any){
+    console.log(event);
+  }
+}

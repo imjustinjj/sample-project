@@ -1,0 +1,11 @@
+<h3>Cars</h3>
+<form #f="ngForm" (ngSubmit)="submit(f)">
+    <label for="category">Category:</label>
+<input type="text" id="category" placeholder="Category" name="category" ngModel>
+<br>
+<label for="model">Model:</label>
+<input type="text" id="model" placeholder="Model" name="model" ngModel>
+
+<button>Submit</button>
+
+</form>
